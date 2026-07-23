@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: goldenrod;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: -128px;
+}
+
+h4 {
+    margin-bottom: 128px;
+    margin-top: -16px;
+}
+
+.container {
+    display: flex;
+    max-width: 384px;
+    flex-wrap: wrap;
+    border: 50px solid black;
+    border-radius: 25px;
+}
+
+.display {
+    min-width: 384px;
+    min-height: 68px;
+    border: solid black 2px;
+    box-sizing: border-box;
+    text-align: end;
+    line-height: 64px;
+    font-size: 32px;
+    background-color: gray;
+}
+
+button {
+    min-width: 96px;
+    min-height: 64px;
+    font-size: 32px;
+}
+
+.number {
+    background-color: indigo;
+    color: white;
+}
+
+.operator {
+    background-color: green;
+    color: white;
+}
+
+.clear {
+    background-color: brown;
+    color: white;
+}
